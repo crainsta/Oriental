@@ -33,7 +33,7 @@ BOOL ENABLED = YES;
         [orientalWindow _setSecure:YES];
         [orientalWindow setUserInteractionEnabled:YES];
 
-        orientalView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
+        orientalView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 50)];
         orientalView.layer.cornerRadius = 10.0;
         orientalView.layer.masksToBounds = YES;
         [orientalView setBackgroundColor:[UIColor clearColor]];
